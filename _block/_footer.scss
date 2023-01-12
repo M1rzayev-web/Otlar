@@ -1,18 +1,68 @@
 footer {
     width: 100%;
     height: 790px;
-    border: 1px solid;
+    // border: 1px solid;
     margin-top: 100px;
     .location {
         width: 100%;
         height: 650px;
-        border: 1px solid;
+        // border: 1px solid;
         ul {
             width: 100%;
             height: 100%;
+            display: flex;
             .malumot-karta {
                 width: 521px;
                 height: 511px;
+                border-radius: 5px;
+                // border: 1px solid;
+                position: absolute;
+                background-color: white;
+                margin-left: 375px;
+                margin-top: 70px;
+                border: 1px solid #EAEAEA;
+                box-shadow: 0px 16px 51px rgba(0, 0, 0, 0.11);
+                .kantakt {
+                    font-size: 40px;
+                    font-family: 'Philosopher';
+                    padding-left: 70px;
+                    margin-top: 50px;
+                }
+                h5 {
+                    border: 1px solid;
+                    width: 40px;
+                    margin-left: 70px;
+                    margin-top: 30px;
+                    color: #008139;
+                }
+                span {
+                    display: flex;
+                    width: 100%;
+                    height: 30px;
+                    margin-top: 40px;
+                    i {
+                        width: 10%;
+                        padding-left: 72px;
+                        color: #FFC700;
+                        font-size: 22px;
+                    }
+                    p {
+                        width: 90%;
+                        padding-left: 40px;
+                    }
+                    a {
+                        width: 90%;
+                        margin-left: 40px;
+                        color: black;
+                    }
+                }
+            }
+            .karta-malumot {
+                iframe {
+                    width: 1920px;
+                    height: 645px;
+                    margin-left: 0;
+                }
             }
         }
     }
