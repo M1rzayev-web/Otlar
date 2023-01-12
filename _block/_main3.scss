@@ -708,7 +708,7 @@ main {
     .savol-javob {
         width: 100%;
         height: 800px;
-        border: 1px solid;
+        // border: 1px solid;
         margin-top: 156px;
         background-image: url("/images_otlar/fon\ rasm.png");
         ul {
@@ -721,7 +721,9 @@ main {
                 background-color: white;
                 width: 470px;
                 height: 547px;
+                border: 1px solid transparent;
                 border-radius: 10px;
+                margin-right: 225px;
                 .p1001 {
                     width: 339px;
                     height: 35px;
@@ -743,17 +745,23 @@ main {
                 }
                 .input-text {
                     width: 330px;
+                    border: none;
+                    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
                     height: 61px;
+                    border-radius: 5px;
                     font-size: 26px;
                     margin: 30px 70px 0 70px;
                 }
                 .input-tel {
                     width: 330px;
+                    border-radius: 5px;
+                    border: none;
+                    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
                     height: 61px;
                     font-size: 26px;
                     margin: 20px 70px 10px 70px;
                 }
-                button {
+                .checkboxbtn {
                     width: 323px;
                     height: 70px;
                     display: flex;
@@ -770,10 +778,34 @@ main {
                     letter-spacing: 0.07em;
                     text-transform: uppercase;
                 }
+                .checkbox {
+                    width: 284px;
+                    height: 20px;
+                    margin-left: 75px;
+                    margin-top: 30px;
+                    position: absolute;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    input {
+                        font-size: 30px;
+                    }
+                    label {
+                        color: #8A8A8A;
+                    }
+                }
             }
+        }
+        .archa {
+            width: 297px;
+            height: 371px;
+            margin-top: -330px;
+            margin-left: 1390px;
         }
         .bulut-pas {
             margin-top: -180px;
+            position: absolute;
+            margin-left: -1686px;
         }
     }
 }

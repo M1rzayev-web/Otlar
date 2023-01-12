@@ -1,0 +1,19 @@
+footer {
+    width: 100%;
+    height: 790px;
+    border: 1px solid;
+    margin-top: 100px;
+    .location {
+        width: 100%;
+        height: 650px;
+        border: 1px solid;
+        ul {
+            width: 100%;
+            height: 100%;
+            .malumot-karta {
+                width: 521px;
+                height: 511px;
+            }
+        }
+    }
+}
