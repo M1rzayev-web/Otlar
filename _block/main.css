@@ -22,6 +22,9 @@
   padding: 0 375px;
   margin-top: 10px;
 }
+.continer header .navbar .dropdown {
+  display: none;
+}
 .continer header .navbar .logo {
   width: 15%;
   height: 100%;
