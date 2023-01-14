@@ -4,6 +4,7 @@
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
+  border: 1px solid red;
 }
 
 .continer {
@@ -118,7 +119,7 @@
   width: 167px;
   height: 632px;
   margin-top: -150px;
-  margin-left: 1106px;
+  margin-left: 57.5%;
   position: absolute;
 }
 .continer header .header-bottom ul .bottom-item-2 {
@@ -1131,7 +1132,7 @@
     width: 61px;
     height: 229px;
     margin-top: 230px;
-    margin-left: 650px;
+    margin-left: 65%;
   }
   .continer header .header-bottom ul .bottom-item-2 {
     width: 50%;
@@ -1184,11 +1185,11 @@
     font-size: 32px;
   }
   .continer main .bizning-kulub ul .klub-item2 p {
-    width: 1000px;
-    margin-left: -356px;
+    width: 200%;
+    margin-left: -360px;
   }
   .continer main .tanlash-sabablari {
-    width: 1000px;
+    width: 100%;
   }
   .continer main .tanlash-sabablari .sabab-text {
     width: 100%;
@@ -1204,7 +1205,7 @@
     width: 240px;
   }
   .continer main .klub-joylari {
-    width: 1000px;
+    width: 100%;
   }
   .continer main .klub-joylari .joylar-p1 {
     width: 100%;
