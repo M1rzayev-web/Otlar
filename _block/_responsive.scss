@@ -208,9 +208,14 @@
                 width: 100%;
                 li {
                     width: 100%;
+                    overflow-y: hidden;
                     img {
-                        width: 200px;
+                        // width: 200px;
+                        margin: 0 5px;
                     }
+                    // .rasm5 {
+                    //     display: none;
+                    // }
                 }
             }
             .controller {
@@ -229,7 +234,7 @@
             .otlar1 {
                 width: 100%;
                 .item1 {
-                    width: 240px;
+                    width: 300px;
                     margin-top: 0;
                     opacity: 1;
                     img {
@@ -241,7 +246,7 @@
                     }
                 }
                 .item2 {
-                    width: 240px;
+                    width: 300px;
                     img {
                         width: 100%;
                         margin: -20px 0 0 0;
@@ -251,7 +256,7 @@
                     }
                 }
                 .item3 {
-                    width: 240px;
+                    width: 300px;
                     img {
                         width: 100%;
                         margin: -20px 0 0 0;
@@ -261,7 +266,8 @@
                     }
                 }
                 .item4 {
-                    width: 240px;
+                    display: none;
+                    width: 300px;
                     img {
                         width: 100%;
                         margin: -20px 0 0 0;
@@ -272,6 +278,16 @@
                 }
                 .item5 {
                     display: none;
+                    width: 300px;
+                    margin-top: 0;
+                    opacity: 1;
+                    img {
+                        width: 100%;
+                        margin: -20px 0 0 0;
+                    }
+                    p {
+                        width: 200px;
+                    }
                 }
             }
             .controller2 {

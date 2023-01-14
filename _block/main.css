@@ -1297,9 +1297,10 @@
   }
   .continer main .bizning-mehmonlar ul li {
     width: 100%;
+    overflow-y: hidden;
   }
   .continer main .bizning-mehmonlar ul li img {
-    width: 200px;
+    margin: 0 5px;
   }
   .continer main .bizning-mehmonlar .controller {
     width: 15%;
@@ -1318,7 +1319,7 @@
     width: 100%;
   }
   .continer main .bizning-otlar .otlar1 .item1 {
-    width: 240px;
+    width: 300px;
     margin-top: 0;
     opacity: 1;
   }
@@ -1330,7 +1331,7 @@
     width: 200px;
   }
   .continer main .bizning-otlar .otlar1 .item2 {
-    width: 240px;
+    width: 300px;
   }
   .continer main .bizning-otlar .otlar1 .item2 img {
     width: 100%;
@@ -1340,7 +1341,7 @@
     width: 200px;
   }
   .continer main .bizning-otlar .otlar1 .item3 {
-    width: 240px;
+    width: 300px;
   }
   .continer main .bizning-otlar .otlar1 .item3 img {
     width: 100%;
@@ -1350,7 +1351,8 @@
     width: 200px;
   }
   .continer main .bizning-otlar .otlar1 .item4 {
-    width: 240px;
+    display: none;
+    width: 300px;
   }
   .continer main .bizning-otlar .otlar1 .item4 img {
     width: 100%;
@@ -1361,6 +1363,16 @@
   }
   .continer main .bizning-otlar .otlar1 .item5 {
     display: none;
+    width: 300px;
+    margin-top: 0;
+    opacity: 1;
+  }
+  .continer main .bizning-otlar .otlar1 .item5 img {
+    width: 100%;
+    margin: -20px 0 0 0;
+  }
+  .continer main .bizning-otlar .otlar1 .item5 p {
+    width: 200px;
   }
   .continer main .bizning-otlar .controller2 i {
     font-size: 30px;
