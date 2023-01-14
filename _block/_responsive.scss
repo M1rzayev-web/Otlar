@@ -334,3 +334,14 @@
         }
     }
 }
+
+@media (max-width: 900px) {
+    .rasm-right {
+        display: none;
+    }
+    .nav-list2 {
+        a {
+            margin: 0 15px;
+        }
+    }
+}

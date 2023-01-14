@@ -119,7 +119,7 @@
   width: 167px;
   height: 632px;
   margin-top: -150px;
-  margin-left: 36.5%;
+  margin-left: 55%;
   position: absolute;
 }
 .continer header .header-bottom ul .bottom-item-2 {
@@ -1411,6 +1411,14 @@
   }
   .continer footer .navbar2-bottom .p-lar .p-lar2 {
     margin-left: -200px;
+  }
+}
+@media (max-width: 900px) {
+  .continer .rasm-right {
+    display: none;
+  }
+  .continer .nav-list2 a {
+    margin: 0 15px;
   }
 }
 
