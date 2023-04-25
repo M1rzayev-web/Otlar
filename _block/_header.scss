@@ -103,14 +103,15 @@ header {
                     width: 211px;
                     height: 435px;
                     margin-top: 40px;
-                    margin-left: -646px;
+                    // margin-left: 0;
+                    left: 0;
                     position: absolute;
                 }
                 .rasm-right {
                     width: 167px;
                     height: 632px;
                     margin-top: -150px;
-                    margin-left: 55%;
+                    right: 0;
                     position: absolute;
                 }
             }
@@ -134,5 +135,6 @@ header {
     img {
         width: 100%;
         margin-top: -80px;
+        
     }
 }

@@ -4,12 +4,13 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-    // border: 1px solid red;
+    // border: 1px solid red;  
 }
 
 .continer {
     max-width: 1920px;
     overflow-x: hidden;
+    overflow-y: hidden;
     // border: 1px solid red;
     @import "./block";
     @import "./responsive";

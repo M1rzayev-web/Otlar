@@ -9,6 +9,7 @@
 .continer {
   max-width: 1920px;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 .continer header {
   width: 100%;
@@ -112,14 +113,14 @@
   width: 211px;
   height: 435px;
   margin-top: 40px;
-  margin-left: -646px;
+  left: 0;
   position: absolute;
 }
 .continer header .header-bottom ul .bottom-item-1 .rasm-right {
   width: 167px;
   height: 632px;
   margin-top: -150px;
-  margin-left: 55%;
+  right: 0;
   position: absolute;
 }
 .continer header .header-bottom ul .bottom-item-2 {
@@ -1005,17 +1006,19 @@
 .continer footer .location .footer-left {
   margin-top: -300px;
   position: absolute;
+  margin-left: 0;
 }
 .continer footer .location .footer-right {
   margin-top: -550px;
   position: absolute;
-  margin-left: 1720px;
+  right: 0;
+  margin-right: 55px;
 }
 .continer footer .navbar2-bottom {
-  width: 1920px;
+  width: 100%;
   height: 165px;
   background-color: black;
-  position: absolute;
+  position: relative;
   border: 1px solid white;
 }
 .continer footer .navbar2-bottom .bottom-nav {
@@ -1432,6 +1435,4 @@
   .continer .nav-list2 a {
     margin: 0 15px;
   }
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
